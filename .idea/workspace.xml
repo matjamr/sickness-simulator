@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc33105b-ec4e-406b-bb57-dbcd1b5c1593" name="Changes" comment="init">
+    <list default="true" id="bc33105b-ec4e-406b-bb57-dbcd1b5c1593" name="Changes" comment="nearly done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SimulationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SimulationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SimulationTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SimulationTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/UIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/UIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/Simulation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/SimulationCareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/SimulationCareTaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/SimulationMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/SimulationMemento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/generator/StartingIndividualsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/generator/StartingIndividualsGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jamroz/sicknesssimulator/sicknesssimulator/virus-spread.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jamroz/sicknesssimulator/sicknesssimulator/virus-spread.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +101,8 @@
       <updated>1701515028133</updated>
       <workItem from="1701515029303" duration="22308000" />
       <workItem from="1701590131752" duration="8175000" />
-      <workItem from="1701613795178" duration="6421000" />
+      <workItem from="1701613795178" duration="6586000" />
+      <workItem from="1701634404678" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1701615257117</created>
@@ -118,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701615257117</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nearly done">
+      <created>1701621989734</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701621989734</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +126,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="nearly done" />
+    <option name="LAST_COMMIT_MESSAGE" value="nearly done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
