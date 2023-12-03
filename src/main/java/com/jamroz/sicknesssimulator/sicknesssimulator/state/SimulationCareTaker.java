@@ -20,14 +20,15 @@ public class SimulationCareTaker {
         simulationMementoMap.put(second, new SimulationMemento(population.getObservableList()));
     }
 
-//    public boolean load(Integer second){
-//        if(simulationMementoMap.containsKey(second)){
-//            SimulationMemento snapshot = simulationMementoMap.get(second);
-//            population.setObservable(snapshot.getPopulation().getObservableList());
-//            return true;
-//        }
-//        else{
-//            return false;
-//        }
-//    }
+    public boolean load(Integer second){
+        if(simulationMementoMap.containsKey(second)){
+            SimulationMemento snapshot = simulationMementoMap.get(second);
+            population.getObservableList().clear();
+            population.getObservableList().addAll(snapshot.getPeople());
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 }

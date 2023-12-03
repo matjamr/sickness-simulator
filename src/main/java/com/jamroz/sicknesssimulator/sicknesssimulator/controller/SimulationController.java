@@ -18,6 +18,7 @@ import lombok.Data;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 import java.util.function.Consumer;
 
 import static com.jamroz.sicknesssimulator.sicknesssimulator.util.Consts.PERSON_RADIUS;
@@ -90,10 +91,15 @@ public class SimulationController {
     }
 
     public void reset() {
-        population.getObservableList().clear();
+        if(Objects.nonNull(population))
+            population.getObservableList().clear();
     }
 
     public void saveMemento(int number) {
         simulationCareTaker.save(number);
+    }
+
+    public void load(Integer value) {
+        simulationCareTaker.load(value);
     }
 }

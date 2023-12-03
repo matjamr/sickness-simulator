@@ -15,7 +15,7 @@ import static com.jamroz.sicknesssimulator.sicknesssimulator.util.Consts.SIMULAT
 class SimulationTimer extends AnimationTimer {
     private final TextField timeLabel;
     private final SimulationController simulationController;
-    public ChoiceBox snapshotBox;
+    public ChoiceBox<Integer> snapshotBox;
     private final long interval = 1000000000 / SIMULATION_STEP;
     private long last = 0;
     private Integer ticks = 0;
@@ -34,6 +34,7 @@ class SimulationTimer extends AnimationTimer {
             if(ticks % 25 == 0){
                 simulationController.saveMemento(ticks/25);
                 snapshotBox.getItems().add(ticks/25);
+                snapshotBox.setValue(ticks/25);
             }
         }
     }

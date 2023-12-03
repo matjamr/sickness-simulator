@@ -14,7 +14,7 @@
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0"
             xmlns:fx="http://javafx.com/fxml" fx:controller="com.jamroz.sicknesssimulator.sicknesssimulator.controller.UIController">
     <top>
-        <Label text="Virus Spread Simulation" BorderPane.alignment="CENTER" />
+        <Label text="Sickness Spreading Simulation" BorderPane.alignment="CENTER" />
     </top>
     <center>
         <Pane fx:id="pane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
@@ -43,16 +43,11 @@
                     <Insets bottom="5.0" left="7.0" right="7.0" top="5.0"/>
                 </HBox.margin>
             </Button>
-            <Button fx:id="stepButton" mnemonicParsing="false" onAction="#step" text="Step">
-                <HBox.margin>
-                    <Insets bottom="5.0" left="7.0" right="7.0" top="5.0"/>
-                </HBox.margin>
-            </Button>
         </VBox>
     </right>
     <left>
         <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
-            <Label text="Czas symulacji">
+            <Label text="TIME">
                 <VBox.margin>
                     <Insets bottom="7.0"/>
                 </VBox.margin>
@@ -62,7 +57,7 @@
                     <Insets bottom="7.0"/>
                 </VBox.margin>
             </TextField>
-            <Label text="Odporność">
+            <Label text="IMMUNITY">
                 <VBox.margin>
                     <Insets bottom="7.0" top="7.0"/>
                 </VBox.margin>
@@ -72,13 +67,18 @@
                     <Insets bottom="7.0"/>
                 </VBox.margin>
             </CheckBox>
-            <Label text="Wybor memento">
+            <Label text="MEMENTO STATE">
                 <VBox.margin>
                     <Insets bottom="7.0" top="7.0"/>
                 </VBox.margin>
             </Label>
             <ChoiceBox fx:id="snapshotBox" prefWidth="150.0">
             </ChoiceBox>
+            <Button fx:id="mementoButton" mnemonicParsing="false" onAction="#load" text="Load">
+                <HBox.margin>
+                    <Insets bottom="5.0" left="7.0" right="7.0" top="5.0"/>
+                </HBox.margin>
+            </Button>
         </VBox>
     </left>
 </BorderPane>

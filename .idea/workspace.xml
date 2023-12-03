@@ -4,62 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc33105b-ec4e-406b-bb57-dbcd1b5c1593" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/SickApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SicknessHealingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SicknessSpreadingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SimulationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SimulationTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/UIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/Population.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/decision/IDecision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/decision/StandardDoubleConstraints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/enums/DecisionChoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/enums/EntranceSicknessEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/enums/IndividualSicknessState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/enums/SymptomsState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/movement/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/movement/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/movement/Updateable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/pojo/SicknessSpreadingHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/state/HealtyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/state/IState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/state/ImmuneState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/state/NoSymptomsState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/state/SymptomsState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/util/Movable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/vector/IVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/vector/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/vector/Vector2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/Simulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/SimulationCareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/SimulationMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/Consts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/decision/DecisionMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/decision/entrance/EntranceSicknessDecision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/decision/presence/LeaveDecisionMakerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/decision/sickness/ShouldSpreadSicknessPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/generator/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/generator/PositionGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/generator/StartingIndividualsGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/listener/PersonListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/movement/MovementGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/movement/RandomMovementGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/random/HandicappedRandomGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/random/RandomGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jamroz/sicknesssimulator/sicknesssimulator/virus-spread.fxml" afterDir="false" />
+    <list default="true" id="bc33105b-ec4e-406b-bb57-dbcd1b5c1593" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SimulationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SimulationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SimulationTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SimulationTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/UIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/UIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/Simulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/SimulationCareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/SimulationCareTaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/SimulationMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state/SimulationMemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/generator/StartingIndividualsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/util/generator/StartingIndividualsGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jamroz/sicknesssimulator/sicknesssimulator/virus-spread.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jamroz/sicknesssimulator/sicknesssimulator/virus-spread.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,21 +109,28 @@
       <updated>1701515028133</updated>
       <workItem from="1701515029303" duration="22308000" />
       <workItem from="1701590131752" duration="8175000" />
-      <workItem from="1701613795178" duration="1450000" />
+      <workItem from="1701613795178" duration="6421000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1701615257117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701615257117</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/controller/SicknessSpreadingController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/Population.java</url>
           <line>25</line>
