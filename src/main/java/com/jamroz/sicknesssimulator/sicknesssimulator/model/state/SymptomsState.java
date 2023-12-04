@@ -6,6 +6,6 @@ public class SymptomsState implements IState {
 
     @Override
     public Color getColor(){
-        return Color.RED;
+        return Color.BLACK;
     }
 }

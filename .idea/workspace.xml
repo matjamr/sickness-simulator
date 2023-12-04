@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bc33105b-ec4e-406b-bb57-dbcd1b5c1593" name="Changes" comment="nearly done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/state/HealtyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/state/HealtyState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/state/NoSymptomsState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/state/NoSymptomsState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/state/SymptomsState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/model/state/SymptomsState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/sickness-simulator/src/main/java/com/jamroz/sicknesssimulator/sicknesssimulator/state&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/gdx-gltf-starter&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -103,6 +106,8 @@
       <workItem from="1701590131752" duration="8175000" />
       <workItem from="1701613795178" duration="6586000" />
       <workItem from="1701634404678" duration="3000" />
+      <workItem from="1701634549554" duration="1785000" />
+      <workItem from="1701715796009" duration="255000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1701615257117</created>
@@ -118,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701621989734</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="nearly done">
+      <created>1701634639796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701634639796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

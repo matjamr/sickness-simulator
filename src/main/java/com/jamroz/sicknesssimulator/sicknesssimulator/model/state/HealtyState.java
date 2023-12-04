@@ -6,6 +6,6 @@ public class HealtyState implements IState{
 
     @Override
     public Color getColor(){
-        return Color.GREEN;
+        return Color.CYAN;
     }
 }
